@@ -1,0 +1,63 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1644229661,
+        "narHash": "sha256-1YdnJAsNy69bpcjuoKdOYQX0YxZBiCYZo4Twxerqv7k=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3cecb5b042f7f209c56ffd8371b2711a290ec797",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1647969867,
+        "narHash": "sha256-1e8VpcJFnxrfjsj9ul2vZkD9oWCD9S7L9U2+INaXpS8=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "488869f602eea53e3fe08c89bdb655811877cde0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "stlsc": "stlsc"
+      }
+    },
+    "stlsc": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647395892,
+        "narHash": "sha256-6BAKIMQiSK5MO69ztgjlZ3Iq9A0u2+M/0u/ay/Q64AI=",
+        "owner": "lincolnauster",
+        "repo": "stlsc.nix",
+        "rev": "c12ff60c5ae3326fddf5a4884931287f87ae205e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lincolnauster",
+        "repo": "stlsc.nix",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
